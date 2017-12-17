@@ -62,7 +62,7 @@ describe("About Higher Order Functions", function() {
     expect(_(mixedBag).all(isEven)).toBe(false);
   });
     
-  it("should use 'var sum = _.reduce([1, 2, 3], function(memo, num){ return memo + num; }, 0);' to test if any items passes condition" , function() {
+  it("should use 'any' to test if any items passes condition" , function() {
     var onlyEven = [2,4,6];
     var mixedBag = [2,4,5,6];
 
